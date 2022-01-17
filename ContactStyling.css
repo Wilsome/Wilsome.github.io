@@ -1,0 +1,40 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 750px;
+    padding: 30px;
+
+}
+body h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 25px;
+    color: white
+}
+footer h2
+{
+    color: black;
+}
+.nav{
+    max-width: 55%;
+    margin: auto auto;
+    margin-top: 18%;
+    height: 50%;
+    display: grid
+}
+.nav ul{
+    list-style: none;
+    font-size: 32px;
+  
+}
+.nav ul li{
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+}

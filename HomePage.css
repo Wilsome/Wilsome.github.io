@@ -1,0 +1,43 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/alex-knight-j4uuKnN43_M-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 16%;
+    flex-grow: 1;
+    flex-shrink: 5;
+}
+.hero-text{
+    color: slategrey;
+    text-align: center;
+}
+.hero-text h2{
+    font-size: 50px;
+}
+.hero-btn{
+    text-decoration: none;
+    color: slategrey;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+  
+}
+.hero-btn:hover{
+    background: black;
+    color: white;
+    transition: .5s;
+}
+
+

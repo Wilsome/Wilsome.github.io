@@ -1,0 +1,53 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: linear-gradient(black, white);
+    height: 100%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+}
+nav ul li{
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+nav ul li:hover{
+    cursor: pointer;
+    background: darkgrey;
+}
+nav ul li a{
+    text-decoration: none;
+    color: slategrey;
+  
+}
+nav ul li i{
+    color: white;   
+    padding-right: 15px;
+   
+}
+footer{
+   
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+@media screen and (max-width:600px){
+    nav ul{
+        flex-direction: column;
+    }
+    footer{
+        background: black;
+    }
+}

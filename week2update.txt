@@ -1,0 +1,5 @@
+week 2 update
+pass code is tennisball, didnt get the 2nd as i had to leave for work, and the video on canvas required a passcode
+published my personal website to github
+had my 1 on 1 session on friday. 
+did a couple JS lessions via codeaccademy

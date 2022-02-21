@@ -1,0 +1,38 @@
+/*size of game board*/
+.grid{
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+
+    /*allows all the divs to fit into the game board*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*set HxW for each div within the grid/gameboard*/
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block{
+    background-color: red;
+}
+
+.starting-block{
+    background-color: blue;
+}
+
+
+.log-left,
+.log-right{
+    /*set the area for the water*/
+    background-color: lightblue;
+}
+
+.car-left,
+.car-right{
+    /*set the color for the road*/
+    background-color: lightgray;
+}

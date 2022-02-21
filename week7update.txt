@@ -1,0 +1,4 @@
+week 7 update, passcodes deep, toad
+participated in class lecture and discussions.
+worked on a couple chapters in eloquent Js and exercises
+started working on my game project/frogger

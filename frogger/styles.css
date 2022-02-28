@@ -24,15 +24,28 @@
     background-color: blue;
 }
 
+/*log color*/
+.l1, .l2, .l3{
+    background-color: brown;
 
-.log-left,
-.log-right{
-    /*set the area for the water*/
+}
+
+/*water color*/
+.l4, .l5{
     background-color: lightblue;
 }
 
-.car-left,
-.car-right{
-    /*set the color for the road*/
-    background-color: lightgray;
+/*set color of car*/
+.c1{
+    background-color: black;
+}
+
+/*set color of road*/
+.c2, .c3{
+    background-color: lightslategray;
+}
+
+/*frog color*/
+.frog{
+    background-color: greenyellow;
 }

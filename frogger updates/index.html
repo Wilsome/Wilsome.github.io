@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frogger</title>
+    <link rel="stylesheet" href="styles.css">   
+</head>
+<body>  
+
+   <h3>Movements:</h3>
+    <ul>
+        <li>W (or ˄) = up</li>
+        <li>S (or ˅) = down</li>
+        <li>A (or ˂) = left</li>
+        <li>D (or ˃) = right</li>
+    </ul> 
+    <h3>Seconds left: <span id="time-left">20</span></h3>
+    <h3>Result: <span id="result">0</span></h3>
+    <h3>Level: <span id="level">1</span></h3>
+
+    <button id="start-pause-button" class="actionButton">Start</button>
+
+    <!--build the game board-->
+    <div id="grid" class="grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="ending-block"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <!--row 2-->
+        <div class="car-left c1" ></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+
+        <!--row 3-->
+        <div></div>
+        <div></div> 
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <!--row 4-->
+        <div class="log-left l1"></div>
+        <div class="log-left l2"></div>
+        <div class="log-left l3"></div>
+        <div class="log-left l4"></div>
+        <div class="log-left l5"></div>
+        <div class="log-left l1"></div>
+        <div class="log-left l2"></div>
+        <div class="log-left l3"></div>
+        <div class="log-left l4"></div>
+
+        <!--row 5-->
+        <div class="log-right l5"></div>
+        <div class="log-right l1"></div>
+        <div class="log-right l2"></div>
+        <div class="log-right l3"></div>
+        <div class="log-right l4"></div>
+        <div class="log-right l5"></div>
+        <div class="log-right l1"></div>
+        <div class="log-right l2"></div>
+        <div class="log-right l3"></div>
+
+        <!--row 6-->
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+
+        <!--row 7-->
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+
+        <!--row 8-->
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+
+        <!--row 9-->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="starting-block frog"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

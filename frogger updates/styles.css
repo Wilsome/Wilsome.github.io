@@ -1,0 +1,62 @@
+.actionButton {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+/*size of game board*/
+.grid{
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+
+    /*allows all the divs to fit into the game board*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*set HxW for each div within the grid/gameboard*/
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block{
+    background-color: red;
+}
+
+.starting-block{
+    background-color: blue;
+}
+
+/*log */
+.l1, .l2, .l3{
+    background-size: cover;
+    background-image: url(Log.png);
+
+}
+
+.log-left,
+.log-right {
+    background-color: lightblue;
+}
+
+/*set car*/
+.c1{
+    background-size: cover;
+    background-image: url(Car.png);
+}
+
+.car-right,
+.car-left {
+    background-color: lightslategray;
+}
+
+.car-left {
+    transform:scaleX(-1);
+}
+
+/*frog */
+.frog{
+    background-size: cover;
+    background-image: url(Frog.png) !important;
+}

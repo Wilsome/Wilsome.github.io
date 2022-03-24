@@ -1,0 +1,42 @@
+<HTML>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Frogger 2.0</h1>
+            <section class="stats-section">
+                <div class="game-details">
+                    <ul>
+                        <li>Level: <span id="level">1</span></li>
+                        <li>Speed: <span id="speed">0.5</span></li>
+                        <li>Lives: <span id="lives">3</span></li>
+                    </ul>
+                </div>
+                <div class="timer-details">
+                    Time<br/>
+                    <span id="timer">30</span>
+                </div>
+                <div class="actionGame-details">
+                    <button id="actionButton">Start Game</button>
+                </div>
+            </section>
+            <section class="game-section">
+                <canvas id="gameBoard" width="900px" height="600px"></canvas>
+            </section>
+            <h2>Previous Best</h2>
+            <section class="highestLevel-section">
+                <div>
+                    Highest Level:<br/>
+                    <span id="previous-best-level"></span>
+                </div>
+                <div>
+                    Total Time:<br/>
+                    <span id="previous-best-time"></span>
+                </div>
+            </section>
+        </div>
+        <script src="scripts/helper.js"></script>
+        <script src="scripts/frogger20.js"></script>
+    </body>
+</HTML>
